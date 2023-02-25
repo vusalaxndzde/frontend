@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo element</title>
+    <style>
+        .pseudo-1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .pseudo-1::first-letter {
+            color: blue;
+            font-size: 2em;
+        }
+        .pseudo-1::first-line {
+            color: red;
+        }
+        .pseudo-1::after {
+            content: "******";
+        }
+        /* .pseudo-1::before {
+            content: "*";
+        } */
+    </style>
+</head>
+<body>
+    <p class="pseudo-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est sapiente nulla quasi consequuntur quas earum vitae soluta eaque, quam mollitia autem, nesciunt minima facere. Praesentium provident repudiandae quod porro, cupiditate facere adipisci at quas libero iure error esse repellendus, accusantium quasi fugiat delectus expedita inventore dicta iste necessitatibus officia.</p>
+</body>
+</html>
