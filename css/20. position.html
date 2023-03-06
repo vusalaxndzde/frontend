@@ -14,7 +14,7 @@
             text-align: center;
             position: fixed;
         } */
-        .red-box {
+        /* .red-box {
             width: 200px;
             height: 200px;
             background-color: red;
@@ -29,12 +29,31 @@
             position: relative;
             left: 50px;
             z-index: -1;
+        } */
+        .outer-box {
+            width: 400px;
+            height: 400px;
+            background-color: #a7a7a7;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+        .inner-box {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            right: 20px;
+            top: 20px;
         }
     </style>
 </head>
 <body>
     <!-- <div class="top-nav">Udemy</div> -->
-    <div class="red-box"></div>
-    <div class="blue-box"></div>
+    <!-- <div class="red-box"></div>
+    <div class="blue-box"></div> -->
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
 </body>
 </html>
