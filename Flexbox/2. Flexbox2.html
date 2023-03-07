@@ -15,12 +15,12 @@
             width: 75%;
             min-height: 700px;
             margin: 0 auto;
-            background-color: rgb(243, 215, 215);
+            background-color: rgb(160, 149, 149);
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: flex-start;
             flex-wrap: wrap;
-            align-items: center;
+            align-items: flex-start;
         }
         .box {
             width: 200px;
@@ -32,7 +32,8 @@
         .box-1 {
             background-color: red;
             order: 2;
-            align-self: flex-end;
+            /* align-self: flex-end; */
+            flex-grow: 1;
         }
         .box-2 {
             background-color: blue;
@@ -41,6 +42,7 @@
         .box-3 {
             background-color: green;
             order: 3;
+            flex-grow: 1;
         }
     </style>
 </head>
