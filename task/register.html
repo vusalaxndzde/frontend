@@ -5,48 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/register.css">
     <title>Registration</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <form action="" method="">
+            <h1 class="head">Responsive Registration Form</h1>
             <div class="input-container">
                 <i class="fa fa-envelope icon"></i>
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="email" class="input-field" name="email" placeholder="Email">
             </div>
             <div class="input-container">
                 <i class="fa-solid fa-lock icon"></i>
-                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="password" id="password" class="input-field" name="password" placeholder="Password">
             </div>
             <div class="input-container">
                 <i class="fa-solid fa-lock icon"></i>
-                <input type="password" id="repassword" name="repassword" placeholder="Re-type Password">
+                <input type="password" id="repassword" class="input-field" name="repassword" placeholder="Re-type Password">
             </div>
             <div class="input-container">
                 <i class="fa fa-user icon"></i>
-                <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                <input type="text" id="firstname" class="inputname-field" name="firstname" placeholder="First Name">
                 <i class="fa fa-user icon"></i>
-                <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                <input type="text" id="lastname" class="inputname-field" name="lastname" placeholder="Last Name">
             </div>
             <div class="input-container">
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="gender">Male</label>
+                <label for="gender" class="radio">Male</label>
                 <input type="radio" id="gender" name="gender" value="female">
-                <label for="gender">Female</label>
+                <label for="gender" class="radio">Female</label>
             </div>
-            <select name="country" id="country">
-                <option value="" disabled selected hidden>Select a country</option>
-                <option value="aze">Azerbaijan</option>
-            </select>
-            <div>
+            <div class="input-container">
+                <select name="country" id="country" class="box">
+                    <option value="" disabled selected hidden>Select a country</option>
+                    <option value="aze">Azerbaijan</option>
+                </select>
+            </div>
+            <div class="input-container">
                 <input type="checkbox" id="terms" name="terms" value="terms">
                 <label for="terms">I agree with terms and conditions</label>
             </div>
-            <div>
+            <div class="input-container">
                 <input type="checkbox" id="news" name="news" value="news">
                 <label for="terms">I want to receive the newsletter</label>
             </div>
-            <button id="register-btn" name="register" value="register">Register</button>
+            <button type="submit" id="register" class="btn" name="register" value="register">Register</button>
         </form>
     </div>
 </body>

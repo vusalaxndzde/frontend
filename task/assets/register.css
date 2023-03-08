@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 30px;
+    /* min-width: 300px; */
+}
+
+.icon {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    min-width: 85%;
+    padding: 10px;
+}
+
+.inputname-field {
+    min-width: 1px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.radio {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(245, 174, 42);
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    border: 2px solid orange;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    color: orange;
+    background-color: white;
+}
+
+.box {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.head {
+    text-align: center;
+}
