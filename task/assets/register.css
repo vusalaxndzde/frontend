@@ -22,9 +22,14 @@
     padding: 10px 5px;
     color: white;
     background-color: orange;
-    border: 1px solid orange;
+    border: 2px solid orange;
     min-width: 50px;
     text-align: center;
+}
+
+.icon:hover {
+    background-color: white;
+    color: orange;
 }
 
 .input-field {
@@ -53,6 +58,14 @@
 
 .font {
     font-size: 18px;
+}
+
+.gender {
+    cursor: pointer;
+}
+
+.gender:hover {
+    color: orange;
 }
 
 .btn {
