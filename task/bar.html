@@ -12,27 +12,34 @@
             color: #75252F;
             font-size: 1.5em;
             font-weight: bold;
+            display: inline-block;
+        }
+        ul {
+            list-style-type: none;
         }
         ul li {
-            width: 330px;
-            padding: 17px 30px;
+            width: 350px;
+            padding: 19px 30px;
             background-color: #7674D9;
             border: 1px solid black;
         }
         i {
-            font-size: 1.5em;
             color: white;
-            padding-right: 15px;
+            padding-right: 14px;
         }
-
+        li:hover {
+            background:red;
+            opacity:0.8;
+            color:white;
+        }
     </style>
 </head>
 <body>
     <ul>
-        <li type="none"><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
-        <li type="none"><i class="fa-solid fa-newspaper"></i><a href="#">News</a></li>
-        <li type="none"><i class="fa-solid fa-newspaper"></i><a href="#">Contact</a></li>
-        <li type="none"><i class="fa-solid fa-user"></i><a href="#">About</a></li>
+        <a href="#Home"><li><i class="fa-solid fa-house"></i>Home</li></a>
+        <a href="#News"><li><i class="fa-solid fa-newspaper"></i>News</li></a>
+        <a href="#Contact"><li><i class="fa-solid fa-newspaper"></i>Contact</li></a>
+        <a href="#About"><li><i class="fa-solid fa-user"></i>About</li></a>
     </ul>
 </body>
 </html>
