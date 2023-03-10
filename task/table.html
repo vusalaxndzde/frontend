@@ -5,18 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 60%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        th, td {
+            padding: 10px;
+        }
+        .title {
+            letter-spacing: 10px;
+            font-size: 1.2em;
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <table>
         <thead>
             <tr>
-                <th>Day</th>
-                <th>Regular</th>
-                <th>Overtime</th>
-                <th>Day</th>
+                <caption class="title">Employee Timecard</caption>
+                <th style="width: 300px;">Day</th>
+                <th style="width: 150px;">Regular</th>
+                <th style="width: 150px;">Overtime</th>
+                <th style="width: 150px;">Total</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+            <tr>
+                <td>Mondey</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Mondey</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Mondey</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
