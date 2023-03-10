@@ -21,18 +21,20 @@
             border-radius: 50%;
             position: relative;
             top: 11px;
-            right: 14px;
+            left: 11px;
         }
         input:checked+.circle {
-            left: 179px;
+            left: 201px;
             background-color: white;
         }
-
+        input:checked+.oval {
+            background-color: rgb(250, 71, 0);;
+        }
     </style>
 </head>
 <body>
     <label for="toggle" class="oval">
-        <input type="checkbox" id="toggle">
+        <input type="checkbox" id="toggle" hidden>
         <span class="circle"></span>
     </label>
 </body>
