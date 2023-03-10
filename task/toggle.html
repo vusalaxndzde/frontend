@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        .oval {
+            width: 310px;
+            height: 120px;
+            display: inline-block;
+            background-color: rgb(197, 197, 197);
+            border-radius: 60px;
+        }
+        .circle {
+            width: 97px;
+            height: 97px;
+            display: inline-block;
+            background-color: rgb(250, 71, 0);
+            border-radius: 50%;
+            position: relative;
+            top: 11px;
+            right: 14px;
+        }
+        input:checked+.circle {
+            left: 179px;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <label for="toggle" class="oval">
+        <input type="checkbox" id="toggle">
+        <span class="circle"></span>
+    </label>
+</body>
+</html>
