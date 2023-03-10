@@ -12,6 +12,7 @@
             display: inline-block;
             background-color: rgb(197, 197, 197);
             border-radius: 60px;
+            cursor: pointer;
         }
         .circle {
             width: 97px;
@@ -22,13 +23,15 @@
             position: relative;
             top: 11px;
             left: 11px;
+            transition: .4s;
+
         }
         input:checked+.circle {
             left: 201px;
             background-color: white;
         }
         input:checked+.oval {
-            background-color: rgb(250, 71, 0);;
+            color: rgb(250, 71, 0);;
         }
     </style>
 </head>

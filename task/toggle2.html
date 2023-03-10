@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .oval {
+            position: relative;
+            display: inline-block;
+            width: 310px;
+            height: 120px;
+        }
+
+        .oval input[type="checkbox"] {
+            display: none;
+        }
+
+        .circle {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 60px;
+            background-color: rgb(175, 175, 175);
+            transition: .4s;
+        }
+
+        .circle:before {
+            position: absolute;
+            content: "";
+            height: 97px;
+            width: 97px;
+            left: 13px;
+            bottom: 10px;
+            border-radius: 50%;
+            background-color: rgb(250, 71, 0);
+            transition: .4s;
+        }
+
+        input:checked + .circle {
+            background-color: rgb(250, 71, 0);
+        }
+
+        input:checked + .circle:before {
+            transform: translateX(188px);
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <label class="oval">
+        <input type="checkbox">
+        <span class="circle"></span>
+      </label>
+</body>
+</html>
