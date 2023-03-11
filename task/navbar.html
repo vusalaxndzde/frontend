@@ -7,26 +7,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>side bar</title>
     <style>
+        div {
+            width: 380px;
+        }
+
         a {
             text-decoration: none;
             color: #75252F;
             font-size: 1.5em;
             font-weight: bold;
-            display: block;
+            display: inline-block;
         }
+        
         ul {
             list-style-type: none;
         }
+
         ul li {
             width: 380px;
             padding: 19px 30px;
             background-color: #7674D9;
             border: 1px solid black;
         }
+
         i {
             color: white;
             padding-right: 14px;
         }
+        
         li:hover {
             background:rgb(65, 63, 194);
             opacity:0.8;
@@ -35,11 +43,13 @@
     </style>
 </head>
 <body>
-    <ul>
-        <a href="#Home"><li><i class="fa-solid fa-house"></i>Home</li></a>
-        <a href="#News"><li><i class="fa-solid fa-newspaper"></i>News</li></a>
-        <a href="#Contact"><li><i class="fa-solid fa-newspaper"></i>Contact</li></a>
-        <a href="#About"><li><i class="fa-solid fa-user"></i>About</li></a>
-    </ul>
+    <div>
+        <ul>
+            <a href="#Home"><li><i class="fa-solid fa-house"></i>Home</li></a>
+            <a href="#News"><li><i class="fa-solid fa-newspaper"></i>News</li></a>
+            <a href="#Contact"><li><i class="fa-solid fa-newspaper"></i>Contact</li></a>
+            <a href="#About"><li><i class="fa-solid fa-user"></i>About</li></a>
+        </ul>
+    </div>
 </body>
 </html>
