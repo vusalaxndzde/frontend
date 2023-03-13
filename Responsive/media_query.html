@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
     <style>
-        body {
+        p {
+            display: none;
+        }
+        @media(min-width: 768px) {
+            p {
+                display: block;
+            }
+        }
+
+        /* body {
             background-color: red;
         }
         @media(max-width: 768px) {
@@ -18,10 +27,10 @@
             body {
                 background-color: green;
             }
-        }
+        } */
     </style>
 </head>
 <body>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptatem.</p>
 </body>
 </html>
