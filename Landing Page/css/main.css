@@ -36,3 +36,18 @@ a {
     background-color: #7bc947;
     border-radius: 4px;
 }
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 100%;
+}
