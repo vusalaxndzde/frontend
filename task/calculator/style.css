@@ -9,7 +9,7 @@ body {
 .calculator {
     width: 400px;
     height: 600px;
-    display: flex;
+    /* display: flex; */
     background-color: rgb(43, 43, 43);
     margin: 0 auto;
     border-radius: 10px;
@@ -24,4 +24,8 @@ input {
     color: white;
     text-align: right;
     box-shadow: 0 0 5px white;
+}
+
+.buttons {
+    display: flex;
 }
