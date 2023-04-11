@@ -45,23 +45,19 @@ input {
 .btn {
     width: 20%;
     height: 70px;
-    background-color: black;
-    box-shadow: 0 0 5px white;
 }
 
 .btn2 {
     width: 46%;
     height: 70px;
-    background-color: white;
-    border: 1px solid black;
-    background-color: black;
-    box-shadow: 0 0 5px white;
 }
 
 button {
     font-size: 24px;
     color: white;
     border: 1px solid black;
+    background-color: black;
+    box-shadow: 0 0 5px white;
     font-weight: bold;
 }
 
