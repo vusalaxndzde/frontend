@@ -1,0 +1,10 @@
+body {
+    background-color: aqua;
+}
+
+.calculator {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(43, 43, 43);
+    margin: 0 auto;
+}
