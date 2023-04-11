@@ -75,6 +75,18 @@ button:hover {
     color: red;
 }
 
-.row:nth-child(1) button{
+.row:nth-child(2) button:last-child{
+    color: red;
+}
+
+.row:nth-child(3) button:last-child{
+    color: red;
+}
+
+.row:nth-child(4) button:last-child{
+    color: red;
+}
+
+.row:nth-child(5) button:last-child{
     color: red;
 }
