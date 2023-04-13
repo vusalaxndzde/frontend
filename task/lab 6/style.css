@@ -4,15 +4,29 @@
     box-sizing: border-box;
 }
 
-
-.image1 {
-    background-image: url(image/image1.jpg);
+.image {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
     opacity: 0.7;
     /* position: relative; */
+}
+
+.image1 {
+    background-image: url(image/image1.jpg);
+}
+
+.image2 {
+    background-image: url(image/image2.jpg);
+}
+
+.image3 {
+    background-image: url(image/image3.jpg);
+}
+
+.image4 {
+    background-image: url(image/image4.jpg);
 }
 
 .name {
@@ -39,3 +53,4 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
