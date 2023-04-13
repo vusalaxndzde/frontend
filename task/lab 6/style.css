@@ -19,10 +19,12 @@
 
 .image2 {
     background-image: url(image/image2.jpg);
+    height: 50vh;
 }
 
 .image3 {
     background-image: url(image/image3.jpg);
+    height: 50vh;
 }
 
 .image4 {
@@ -54,3 +56,9 @@
     transform: scale(1.1);
 }
 
+.lorem1 {
+    height: 200px;
+    background-color: rgb(243, 220, 188);
+    padding: 50px;
+    text-align: center;
+}
