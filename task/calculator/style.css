@@ -24,6 +24,7 @@ input {
     color: white;
     text-align: right;
     box-shadow: 0 0 5px white;
+    border-radius: 4px;
 }
 
 .buttons {
@@ -56,6 +57,7 @@ button {
     font-size: 24px;
     color: white;
     border: 1px solid black;
+    border-radius: 8px;
     background-color: black;
     box-shadow: 0 0 5px white;
     font-weight: bold;
