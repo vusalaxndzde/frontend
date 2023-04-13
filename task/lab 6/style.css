@@ -103,4 +103,9 @@
     text-align: center;
     border-radius: 4px;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.label:hover {
+    transform: scale(1.1);
 }
