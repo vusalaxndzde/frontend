@@ -20,3 +20,11 @@ let obj = {
 }
 
 console.log(obj)
+
+let a = 5.6
+console.log(parseInt(a))
+
+let numStr = "5.5"
+console.log(parseFloat(numStr))
+console.log(Number(numStr))
+console.log(typeof +numStr)
