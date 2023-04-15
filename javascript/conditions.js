@@ -33,3 +33,6 @@ switch(operation) {
     default:
         alert("Error") 
 }
+
+let isRaining = false
+isRaining ? console.log("raining") : console.log("not raining")
