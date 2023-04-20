@@ -68,6 +68,8 @@ body {
     align-items: center;
     text-align: center;
     font-size: 14px;
+    background-color: rgb(26, 26, 26);
+    transition: 0.2s;
 }
 
 .days .div:hover {
@@ -77,4 +79,8 @@ body {
 
 .days div:nth-child(10) {
     background-color: #2AAF9E;
+}
+
+.days div:nth-child(10):hover {
+    transform: scale(1.2);
 }
