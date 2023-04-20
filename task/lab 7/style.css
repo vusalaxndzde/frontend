@@ -45,7 +45,7 @@ body {
 .body-head {
     display: flex;
     margin: 0 20px;
-    padding: 18px 0px 18px 0px;
+    padding: 18px 0px 26px 0px;
     gap: 32px;
     font-size: 14px;
 }
