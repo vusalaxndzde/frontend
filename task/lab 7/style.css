@@ -6,8 +6,8 @@
 }
 
 .container {
-    width: 390px;
-    height: 450px;
+    width:390px;
+    height: 490px;
     margin: 200px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -15,7 +15,7 @@
 
 .head {
     width: 100%;
-    height: 25%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,27 @@
 .body-head {
     display: flex;
     margin: 0 15px;
-    padding: 18px 0px;
+    padding: 18px 0px 36px 0px;
     gap: 32px;
     font-size: 14px;
+}
+
+.days {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    color: white;
+}
+
+.days div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 12px;
 }
