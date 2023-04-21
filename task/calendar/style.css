@@ -70,6 +70,7 @@ body {
     font-size: 14px;
     background-color: rgb(26, 26, 26);
     transition: 0.2s;
+    border-radius: 25px;
 }
 
 .days .div:hover {
