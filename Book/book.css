@@ -5,12 +5,12 @@
 }
 
 .body-head {
-    margin-top: 40px;
+    margin-top: 70px;
     color: #6D9886;
 }
 
 .body {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 105px;
@@ -25,14 +25,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 2px 2px 6px 1.5px rgba(167, 166, 166, 0.753)
+    box-shadow: 2px 2px 6px 0.5px rgba(167, 166, 166, 0.753)
 }
 
 .book-border:hover {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(247, 247, 247);
     /* cursor: pointer; */
-    transition: 0.2s;
+    transition: 0.3s;
     transform: scale(1.02);
+    box-shadow: 2px 2px 6px 3px rgba(167, 166, 166, 0.753)
 }
 
 .book-image {
