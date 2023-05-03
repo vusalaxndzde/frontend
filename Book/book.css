@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.body-head {
+    margin-top: 40px;
+    text-decoration: underline;
+    color: #2bad65;
+}
+
 .body {
     margin-top: 40px;
     display: flex;
