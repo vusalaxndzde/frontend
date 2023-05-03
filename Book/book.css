@@ -6,12 +6,11 @@
 
 .body-head {
     margin-top: 40px;
-    text-decoration: underline;
-    color: #2bad65;
+    color: #6D9886;
 }
 
 .body {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 105px;
