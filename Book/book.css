@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #d7fcd4 !important;
+}
+
+.book {
+    height: 800px;
+    padding: 20px 30px;
+    margin-top: 70px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    /* position: relative; */
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    box-shadow: 1px 1px 2px 2px rgb(241, 241, 241);
+}
+
+.book-cover {
+    width: 35%;
+    height: 70%;
+}
+
+.content {
+    padding-top: 40px;
+    width: 65%;
+}
+
+.name {
+    width: 40%;
+    margin-bottom: 50px;
+    /* position: absolute; */
+    /* left: 400px;
+    top: 60px; */
+}
+
+.featured-info {
+    padding: 20px 10px 10px 10px;
+}
+
+.featured-info .info-head {
+    font-weight: 600;
+}
+
+.featured-info .info {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.featured-info .info div p {
+    opacity: 0.7;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.featured-info .info span {
+    font-weight: 600;
+}
+
+.about {
+    font-size: 13px;
+    padding: 20px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 22px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .book-cover {
+            position: relative;
+            display: inline-block;
+            width: 200px;
+            height: 300px;
+        }
+
+        .left-side,
+        .right-side {
+            position: absolute;
+            top: 0;
+            height: 100%;
+        }
+
+        .left-side {
+            left: 0;
+            width: 50%;
+            background-color: #ccc;
+            z-index: 1;
+        }
+
+        .right-side {
+            right: 0;
+            width: 50%;
+            background-color: #f00;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .book-cover:hover .right-side {
+            transform: translateX(10%);
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="book-cover">
+        <div class="left-side"></div>
+        <div class="right-side"></div>
+    </div>
+</body>
+
+</html>
