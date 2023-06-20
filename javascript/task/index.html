@@ -39,17 +39,20 @@
                 yeni += input.value[i]
             }
             input.value = yeni
-            console.log(input)
+        }
+
+        function deleteWork(element) {
+            element.style.textDecoration = 'line-through'
         }
     </script>
 </head>
 <body>
     <ul>
-        <li onclick="changeColor(this)">dsd</li>
-        <li onclick="changeColor(this)">sads</li>
-        <li onclick="changeColor(this)">sadsd</li>
-        <li onclick="changeColor(this)">sdsd</li>
-        <li onclick="changeColor(this)">sdsd</li>
+        <li onclick="deleteWork(this)">dsd</li>
+        <li onclick="deleteWork(this)">sads</li>
+        <li onclick="deleteWork(this)">sadsd</li>
+        <li onclick="deleteWork(this)">sdsd</li>
+        <li onclick="deleteWork(this)">sdsd</li>
     </ul>
     <input type="text" id="create-user-input" onchange="reverseWord()">
     <button type="button" onclick="createUser()">Create</button>
