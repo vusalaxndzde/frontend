@@ -10,6 +10,14 @@
             let ul = document.querySelector('ul')
             ul.removeChild(element)
         }
+
+        function createUser() {
+            let input = document.querySelector('input')
+            let ul = document.querySelector('ul')
+            let li = document.createElement('li')
+            li.textContent = input.value
+            ul.appendChild(li)
+        }
     </script>
 </head>
 <body>
@@ -20,5 +28,7 @@
         <li onclick="deleteLi(this)">sdsd</li>
         <li onclick="deleteLi(this)">sdsd</li>
     </ul>
+    <input type="text" id="create-user-input">
+    <button type="button" onclick="createUser()">Create</button>
 </body>
 </html>
