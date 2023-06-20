@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .selected {
+            color: red;
+        }
+    </style>
     <script>
         function deleteLi(element) {
             console.log(element)
@@ -18,15 +23,23 @@
             li.textContent = input.value
             ul.appendChild(li)
         }
+
+        function changeColor(element) {
+            let items = document.getElementsByTagName('li')
+            for (let i = 0; i < items.length; i++) {
+                items[i].classList.remove('selected')
+            }
+            element.classList.add('selected')
+        }
     </script>
 </head>
 <body>
     <ul>
-        <li onclick="deleteLi(this)">dsd</li>
-        <li onclick="deleteLi(this)">sads</li>
-        <li onclick="deleteLi(this)">sadsd</li>
-        <li onclick="deleteLi(this)">sdsd</li>
-        <li onclick="deleteLi(this)">sdsd</li>
+        <li onclick="changeColor(this)">dsd</li>
+        <li onclick="changeColor(this)">sads</li>
+        <li onclick="changeColor(this)">sadsd</li>
+        <li onclick="changeColor(this)">sdsd</li>
+        <li onclick="changeColor(this)">sdsd</li>
     </ul>
     <input type="text" id="create-user-input">
     <button type="button" onclick="createUser()">Create</button>
