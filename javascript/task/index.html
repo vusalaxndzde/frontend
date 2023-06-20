@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function deleteLi(element) {
+            console.log(element)
+            let ul = document.querySelector('ul')
+            ul.removeChild(element)
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li onclick="deleteLi(this)">dsd</li>
+        <li onclick="deleteLi(this)">sads</li>
+        <li onclick="deleteLi(this)">sadsd</li>
+        <li onclick="deleteLi(this)">sdsd</li>
+        <li onclick="deleteLi(this)">sdsd</li>
+    </ul>
+</body>
+</html>
