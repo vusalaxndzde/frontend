@@ -31,6 +31,16 @@
             }
             element.classList.add('selected')
         }
+
+        function reverseWord() {
+            let input = document.getElementById('create-user-input')
+            let yeni = ''
+            for (let i = input.value.length - 1; i >=0; i--) {
+                yeni += input.value[i]
+            }
+            input.value = yeni
+            console.log(input)
+        }
     </script>
 </head>
 <body>
@@ -41,7 +51,7 @@
         <li onclick="changeColor(this)">sdsd</li>
         <li onclick="changeColor(this)">sdsd</li>
     </ul>
-    <input type="text" id="create-user-input">
+    <input type="text" id="create-user-input" onchange="reverseWord()">
     <button type="button" onclick="createUser()">Create</button>
 </body>
 </html>
