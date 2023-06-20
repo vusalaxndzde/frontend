@@ -28,6 +28,7 @@ tekrariSil([1,1,2,3,4,3,2,6])
 
 
 let arr = [
+    {ad : "vusal", giris : 34, bal : 17},
     {ad : "vusal", giris : 34, bal : 18},
     {ad : "vusal", giris : 45, bal : 20},
     {ad : "vusal", giris : 34, bal : 16},
